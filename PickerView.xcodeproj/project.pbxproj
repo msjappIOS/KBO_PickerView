@@ -15,6 +15,16 @@
 		F72FFBF225F663C500118832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72FFBF025F663C500118832 /* LaunchScreen.storyboard */; };
 		F72FFBFD25F663C500118832 /* PickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FFBFC25F663C500118832 /* PickerViewTests.swift */; };
 		F72FFC0825F663C500118832 /* PickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72FFC0725F663C500118832 /* PickerViewUITests.swift */; };
+		F72FFC1A25F6678700118832 /* wiz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC1925F6678700118832 /* wiz.jpg */; };
+		F72FFC2725F667A400118832 /* giants.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC1E25F667A300118832 /* giants.png */; };
+		F72FFC2825F667A400118832 /* twins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC1F25F667A300118832 /* twins.jpg */; };
+		F72FFC2925F667A400118832 /* heroes.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2025F667A300118832 /* heroes.png */; };
+		F72FFC2A25F667A400118832 /* lions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2125F667A300118832 /* lions.jpg */; };
+		F72FFC2B25F667A400118832 /* eagles.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2225F667A300118832 /* eagles.png */; };
+		F72FFC2C25F667A400118832 /* bears.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2325F667A400118832 /* bears.png */; };
+		F72FFC2D25F667A400118832 /* tigers.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2425F667A400118832 /* tigers.png */; };
+		F72FFC2E25F667A400118832 /* wyverns.png in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2525F667A400118832 /* wyverns.png */; };
+		F72FFC2F25F667A400118832 /* dinos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F72FFC2625F667A400118832 /* dinos.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		F72FFC0325F663C500118832 /* PickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72FFC0725F663C500118832 /* PickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewUITests.swift; sourceTree = "<group>"; };
 		F72FFC0925F663C500118832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72FFC1925F6678700118832 /* wiz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wiz.jpg; sourceTree = "<group>"; };
+		F72FFC1E25F667A300118832 /* giants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giants.png; sourceTree = "<group>"; };
+		F72FFC1F25F667A300118832 /* twins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twins.jpg; sourceTree = "<group>"; };
+		F72FFC2025F667A300118832 /* heroes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heroes.png; sourceTree = "<group>"; };
+		F72FFC2125F667A300118832 /* lions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lions.jpg; sourceTree = "<group>"; };
+		F72FFC2225F667A300118832 /* eagles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eagles.png; sourceTree = "<group>"; };
+		F72FFC2325F667A400118832 /* bears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bears.png; sourceTree = "<group>"; };
+		F72FFC2425F667A400118832 /* tigers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tigers.png; sourceTree = "<group>"; };
+		F72FFC2525F667A400118832 /* wyverns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wyverns.png; sourceTree = "<group>"; };
+		F72FFC2625F667A400118832 /* dinos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dinos.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		F72FFBE425F663C400118832 /* PickerView */ = {
 			isa = PBXGroup;
 			children = (
+				F72FFC1825F6673B00118832 /* images */,
 				F72FFBE525F663C400118832 /* AppDelegate.swift */,
 				F72FFBE725F663C400118832 /* SceneDelegate.swift */,
 				F72FFBE925F663C400118832 /* ViewController.swift */,
@@ -126,6 +147,23 @@
 				F72FFC0925F663C500118832 /* Info.plist */,
 			);
 			path = PickerViewUITests;
+			sourceTree = "<group>";
+		};
+		F72FFC1825F6673B00118832 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F72FFC2325F667A400118832 /* bears.png */,
+				F72FFC2625F667A400118832 /* dinos.jpg */,
+				F72FFC2225F667A300118832 /* eagles.png */,
+				F72FFC1E25F667A300118832 /* giants.png */,
+				F72FFC2025F667A300118832 /* heroes.png */,
+				F72FFC2125F667A300118832 /* lions.jpg */,
+				F72FFC2425F667A400118832 /* tigers.png */,
+				F72FFC1F25F667A300118832 /* twins.jpg */,
+				F72FFC2525F667A400118832 /* wyverns.png */,
+				F72FFC1925F6678700118832 /* wiz.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +269,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72FFC2E25F667A400118832 /* wyverns.png in Resources */,
+				F72FFC1A25F6678700118832 /* wiz.jpg in Resources */,
 				F72FFBF225F663C500118832 /* LaunchScreen.storyboard in Resources */,
+				F72FFC2D25F667A400118832 /* tigers.png in Resources */,
+				F72FFC2725F667A400118832 /* giants.png in Resources */,
 				F72FFBEF25F663C500118832 /* Assets.xcassets in Resources */,
+				F72FFC2F25F667A400118832 /* dinos.jpg in Resources */,
+				F72FFC2B25F667A400118832 /* eagles.png in Resources */,
+				F72FFC2925F667A400118832 /* heroes.png in Resources */,
+				F72FFC2A25F667A400118832 /* lions.jpg in Resources */,
 				F72FFBED25F663C400118832 /* Main.storyboard in Resources */,
+				F72FFC2825F667A400118832 /* twins.jpg in Resources */,
+				F72FFC2C25F667A400118832 /* bears.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
